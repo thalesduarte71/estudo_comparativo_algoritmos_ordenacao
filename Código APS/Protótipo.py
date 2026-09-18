@@ -28,7 +28,21 @@ def insertion_sort(lista):
 # X. Função de Algoritmo de Ordenação Quick Sort
 # ------
 
-# 2. Geração de Dados Aleatórios Internos + Menu
+# 2. Geração de Dados Aleatórios Internos
+while True:
+    try:
+        tamanho_vetor = int(input("\nDigite um número inteiro positivo para definir a quantidade de dados a ser gerada: "))
+        if tamanho_vetor <= 0:
+            print("\nA quantidade de dados deve ser maior que zero!")
+            continue
+        break
+    except ValueError:
+        print("\nErro: Por favor, digite apenas números inteiros.")
+
+print(f"Gerando dados aleatórios em um vetor de {tamanho_vetor} valores.")
+dados_aleatorios = random.choices(range(1, 1000000), k=tamanho_vetor)
+
+# 3. Menu de Execução    
 while True:
     print("="*30)
     print("MENU DE ORDENAÇÃO")
@@ -50,59 +64,44 @@ while True:
             print("\nOpção inválida, escolha um número entre 1 e 4.")
             continue
 
-        tamanho_vetor = int(input("\nDigite um número inteiro positivo para definir a quantidade de dados a ser gerada: "))
-
-        if tamanho_vetor <= 0:
-            print("\nA quantidade de dados deve ser maior que zero!")
-            continue
-
     except ValueError:
         print("\nErro: Por favor, digite apenas números inteiros!")
         continue
 
         
-    # 3. Execução e Medição de Tempo Isolada Bubble Sort + Tratamento de Exceção
+    # 4. Execução e Medição de Tempo Bubble Sort
     match opcao:
         case 1:
-            if tamanho_vetor > 0:
-                dados_aleatorios = random.choices(range(1, 1000000), k=tamanho_vetor)
+            inicio = time.perf_counter()
+            dados_ordenados = bubble_sort(dados_aleatorios)
+            fim = time.perf_counter()
+            tempo_execucao = fim - inicio
 
-                inicio = time.perf_counter()
-                dados_ordenados = bubble_sort(dados_aleatorios)
-                fim = time.perf_counter()
-                tempo_execucao = fim - inicio
+            print("\n")
+            print("-" * 50)
+            print("[Visualização dos Dados Ordenados]")
+            print("-" * 50)
+            print(f"Quantidade de dados: {tamanho_vetor}")
+            print(f"Tempo de ordenação: {tempo_execucao:.6f} segundos")
+            print(f"Ordem dos primeiros(até 10) dados: {dados_ordenados[:10]}")
+            print(f"Ordem dos últimos(até 10) dados: {dados_ordenados[-10:]}\n")
 
-                print("\n")
-                print("-" * 50)
-                print("[Visualização dos Dados Ordenados]")
-                print("-" * 50)
-                print(f"Quantidade de dados: {tamanho_vetor}")
-                print(f"Tempo de ordenação: {tempo_execucao:.6f} segundos")
-                print(f"Ordem dos primeiros 10 dados: {dados_ordenados[:10]}")
-                print(f"Ordem dos últimos 10 dados: {dados_ordenados[-10:]}\n")
-
-            else:
-                print("A quantidade de dados a ser gerada deve ser maior que zero! Por favor, execute o programa novamente com o valor correto.")
-
+    # 5. Execução e Medição de Tempo Bubble Sort
         case 2:
-            if tamanho_vetor > 0:
-                dados_aleatorios = random.choices(range(1, 1000000), k=tamanho_vetor)
+            inicio = time.perf_counter()
+            dados_ordenados = insertion_sort(dados_aleatorios)
+            fim = time.perf_counter()
+            tempo_execucao = fim - inicio
 
-                inicio = time.perf_counter()
-                dados_ordenados = insertion_sort(dados_aleatorios)
-                fim = time.perf_counter()
-                tempo_execucao = fim - inicio
+            print("\n")
+            print("-" * 50)
+            print("[Visualização dos Dados Ordenados]")
+            print("-" * 50)
+            print(f"Quantidade de dados: {tamanho_vetor}")
+            print(f"Tempo de ordenação: {tempo_execucao:.6f} segundos")
+            print(f"Ordem dos primeiros(até 10) dados: {dados_ordenados[:10]}")
+            print(f"Ordem dos últimos(até 10) dados: {dados_ordenados[-10:]}\n")
 
-                print("\n")
-                print("-" * 50)
-                print("[Visualização dos Dados Ordenados]")
-                print("-" * 50)
-                print(f"Quantidade de dados: {tamanho_vetor}")
-                print(f"Tempo de ordenação: {tempo_execucao:.6f} segundos")
-                print(f"Ordem dos primeiros 10 dados: {dados_ordenados[:10]}")
-                print(f"Ordem dos últimos 10 dados: {dados_ordenados[-10:]}\n")
-
-            else:
-                print("A quantidade de dados a ser gerada deve ser maior que zero! Por favor, execute o programa novamente com o valor correto.")
+    # 6. Execução e Medição de Tempo Bubble Sort
         case 3:
             print("Quick Sort ainda está sendo desenvolvido.")
