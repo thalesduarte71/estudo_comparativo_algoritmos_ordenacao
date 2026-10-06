@@ -1,7 +1,9 @@
 import json
 import os
-import string
 import random
+from faker import Faker
+
+fake = Faker('pt_BR')
 
 qtd_dados = int(input("Digite quantos Dados deseja gerar: "))
 DIRETORIO_ATUAL = os.path.dirname(os.path.abspath(__file__))
@@ -12,10 +14,8 @@ print(f"Iniciando a geração de {qtd_dados} dados...")
 jogadores = []
 
 for i in range (1, qtd_dados + 1):
-    sigla = "".join(random.choices(string.ascii_uppercase, k = 3))
-
     jogador = {
-        "nome_jogador": sigla,
+        "nome_jogador": fake.user_name(),
         "pontuacao": random.randint(0, 99999999),
         "tempo_partida_seg": random.randint(10, 3600),
         "venceu_partida": random.choice([True, False])
