@@ -42,8 +42,9 @@ while True:
     except ValueError:
         print("Digite apenas um número inteiro.")
 
-ATUAL = os.path.dirname(os.path.abspath(__file__))
-NOME_ARQUIVO = os.path.join(ATUAL, "musicas_geradas.json")
+DIRETORIO_ATUAL = os.path.dirname(os.path.abspath(__file__))
+CAMINHO_PASTA = os.path.join(DIRETORIO_ATUAL, "..", "pasta_dados_desordenados")
+NOME_ARQUIVO = os.path.join(CAMINHO_PASTA, "musicas_geradas.json")
 
 print(f"Iniciando a geração de {dados} músicas.")
 

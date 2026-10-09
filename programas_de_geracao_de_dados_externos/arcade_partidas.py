@@ -7,7 +7,8 @@ fake = Faker('pt_BR')
 
 qtd_dados = int(input("Digite quantos Dados deseja gerar: "))
 DIRETORIO_ATUAL = os.path.dirname(os.path.abspath(__file__))
-ARQUIVO_NOME = os.path.join(DIRETORIO_ATUAL, "jogadores_arcade.json")
+CAMINHO_PASTA = os.path.join(DIRETORIO_ATUAL, "..", "pasta_dados_desordenados")
+ARQUIVO_CAMINHO = os.path.join(CAMINHO_PASTA, "jogadores_arcade.json")
 
 print(f"Iniciando a geração de {qtd_dados} dados...")
 
@@ -23,7 +24,7 @@ for i in range (1, qtd_dados + 1):
     jogadores.append(jogador)
 
 print("Gravando dados...")
-with open(ARQUIVO_NOME, "w", encoding="utf-8") as f:
+with open(ARQUIVO_CAMINHO, "w", encoding="utf-8") as f:
     json.dump(jogadores, f, ensure_ascii = False, indent = 2)
 
 print(f"Todos os {qtd_dados} dados foram gravados com sucesso em um arquivo .json!")

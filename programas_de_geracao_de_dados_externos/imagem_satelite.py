@@ -7,7 +7,8 @@ fake = Faker('pt_BR')
 
 qtd_dados = int(input("Digite quantos Dados deseja gerar: "))
 DIRETORIO_ATUAL = os.path.dirname(os.path.abspath(__file__))
-ARQUIVO_NOME = os.path.join(DIRETORIO_ATUAL, "fotos_satelite_amazonia.json")
+CAMINHO_PASTA = os.path.join(DIRETORIO_ATUAL, "..", "pasta_dados_desordenados")
+ARQUIVO_NOME = os.path.join(CAMINHO_PASTA, "fotos_satelite_amazonia.json")
 
 CIDADES = {
     "Manaus":      {"lat": (-4.09, -2.09), "long": (-61.06, -59.06)},

@@ -192,9 +192,16 @@ while True:
                         continue
 
                     # Seleção do Arquivo pelo Usuário e sua Leitura por with open... json.load(f) + Tratamento de Exceção
-                    caminho_arquivo = input("Digite o caminho do arquivo JSON (ex: jogadores_arcade.json): ")
+                    diretorio_dado = os.path.dirname(os.path.abspath(__file__))
+                    pasta_desordenados = os.path.join(diretorio_dado, "..", "pasta_dados_desordenados")
+                    
+                    nome_arquivo = input("Digite o nome do arquuivo JSON (ex: jogadores_arcade.json): ")
+                    if not nome_arquivo.endswith(".json"):
+                        nome_arquivo += ".json"
+                    
+                    caminho_arquivo = os.path.join(pasta_desordenados, nome_arquivo)
 
-                    with open(caminho_arquivo, "r", encoding="utf-8") as f:
+                    with open(caminho_arquivo, "r", encoding = "utf-8") as f:
                         dados_externos = json.load(f)
 
                     print("\nArquivo carregado com sucesso!")
@@ -241,8 +248,9 @@ while True:
                             inicio = time.perf_counter()
                             # Aqui se mostra o uso de key = lambda, para Recursão da Função.
                             dados_ordenados = quick_sort(dados_externos, key = lambda x: x[chave_busca])
-                            # Inverte a Lista para ordená-la de forma Decrescente
-                            dados_ordenados.reverse()
+                            # Inverte a Lista para ordená-la de forma Decrescente caso o Dado seja do tipo Inteiro ou de Ponto Flutuante
+                            if dados_ordenados and isinstance(dados_ordenados[0][chave_busca], (int, float)):
+                                dados_ordenados.reverse()
                             fim = time.perf_counter()
                             tempo_execucao = fim - inicio
                             tempo_quick_ex = tempo_execucao
@@ -251,9 +259,10 @@ while True:
                             nome_arquivo_original = os.path.basename(caminho_arquivo)
                             nome_base, extensao = os.path.splitext(nome_arquivo_original)
                             nome_arquivo_saida = f"{nome_base}_ordenado{extensao}"
-                            caminho_saida = os.path.join(pasta_origem, nome_arquivo_saida)
+                            pasta_destino = os.path.join(pasta_origem, "..", "pasta_dados_ordenados")
+                            caminho_saida = os.path.join(pasta_destino, nome_arquivo_saida)
 
-                            with open(caminho_saida, "w", encoding="utf-8") as f:
+                            with open(caminho_saida, "w", encoding = "utf-8") as f:
                                 json.dump(dados_ordenados, f, ensure_ascii = False, indent = 2)
 
                             print(f"\nSucesso! Arquivo ordenado salvo em: {caminho_saida}")
