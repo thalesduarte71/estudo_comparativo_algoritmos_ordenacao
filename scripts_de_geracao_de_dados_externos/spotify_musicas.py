@@ -53,12 +53,12 @@ musicas = []
 for i in range(1, dados + 1):
     musica = {
         "nome_musica": gerar_nome_musica(),
-        "Artista": f"{fake.first_name()} {fake.last_name()}",
-        "Visualizações": min(
+        "artista": f"{fake.first_name()} {fake.last_name()}",
+        "visualizacoes": min(
             int(random.expovariate(1 / 100_000)),
             999999999
         ),
-        "Data_lancamento": str(fake.date_between(start_date='-5y', end_date='today')),
+        "data_lancamento": str(fake.date_between(start_date='-5y', end_date='today')),
     }
     musicas.append(musica)
 
