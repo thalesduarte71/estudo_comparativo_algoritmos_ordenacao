@@ -1,5 +1,30 @@
 import os
 import json
+import unicodedata
+
+# Para organizar por Ordem Alfabética sem conflito de Acentuação
+def normalizar_texto(texto):
+    if isinstance(texto, str):
+        return ''.join(c for c in unicodedata.normalize('NFD', texto) if unicodedata.category(c) != 'Mn').casefold()
+    return texto
+
+# Escolha da Ordem de Ordenação
+def escolher_ordem():
+    while True:
+        try:
+            print("\nEscolha a ordem de ordenação:")
+            print("1. Crescente")
+            print("2. Decrescente")
+            opcao_ordem = int(input())
+            
+            if opcao_ordem == 1:
+                return False # Não é decrescente
+            elif opcao_ordem == 2:
+                return True  # É decrescente
+            else:
+                print("\nOpção inválida! Escolha 1 ou 2.")
+        except ValueError:
+            print("\nErro: Digite apenas números inteiros!")
 
 # Função de Algoritmo de Ordenação Bubble Sort
 def bubble_sort(lista, key = lambda x: x):

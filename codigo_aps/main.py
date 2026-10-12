@@ -5,20 +5,7 @@ import os
 import json
 import funcoes
 import mapa_campos
-
-# Geração de Dados Aleatórios Internos
-while True:
-    try:
-        tamanho_vetor = int(input("\nDigite um número inteiro positivo para definir a quantidade de dados a ser gerada: "))
-        if tamanho_vetor <= 0:
-            print("\nA quantidade de dados deve ser maior que zero!")
-            continue
-        break
-    except ValueError:
-        print("Erro: Por favor, digite apenas números inteiros.\n")
-
-print(f"Dados aleatórios em um vetor de {tamanho_vetor} valores gerados com êxito.\n")
-dados_aleatorios = random.choices(range(1, 1000000), k=tamanho_vetor)
+import unicodedata
 
 # Variavéis para Comparação Futura de Tempos de Ordenação
 tempo_bubble = None
@@ -36,18 +23,19 @@ while True:
 3. Quick Sort
 4. Comparar Tempo
 5. Selecionar Arquivo .json Externo
-6. Sair do Programa
+6. Gerar/Definir Novos Dados Aleatórios Internos
+7. Sair do Programa
 ''')
 
     try:
         opcao = int(input())
 
-        if opcao == 6:
+        if opcao == 7:
             print("Encerrando o programa...")
             break
 
-        if opcao <= 0 or opcao > 6:
-            print("Opção inválida, escolha um número de 1 a 6.")
+        if opcao <= 0 or opcao > 7:
+            print("Opção inválida, escolha um número de 1 a 7.")
             continue
 
     except ValueError:
@@ -58,8 +46,19 @@ while True:
     match opcao:
         # Execução e Medição de Tempo Bubble Sort
         case 1:
+            # Verifica se há Dados Internos Existentes
+            if not dados_aleatorios:
+                print("\nAviso: Gere os dados aleatórios primeiro (Opção 6)!")
+                continue
+
+            # Chama a para escolher a Ordem, Decrescente ou Crescente
+            decrescente = funcoes.escolher_ordem()
+
             inicio = time.perf_counter()
             dados_ordenados = funcoes.bubble_sort(dados_aleatorios)
+            if decrescente:
+                dados_ordenados.reverse()
+
             fim = time.perf_counter()
             tempo_execucao = fim - inicio
             tempo_bubble = tempo_execucao
@@ -68,8 +67,19 @@ while True:
 
         # Execução e Medição de Tempo Insertion Sort
         case 2:
+            # Verifica se há Dados Internos Existentes
+            if not dados_aleatorios:
+                print("\nAviso: Gere os dados aleatórios primeiro (Opção 6)!")
+                continue
+
+            # Chama a para escolher a Ordem, Decrescente ou Crescente
+            decrescente = funcoes.escolher_ordem()
+
             inicio = time.perf_counter()
             dados_ordenados = funcoes.insertion_sort(dados_aleatorios)
+            if decrescente:
+                dados_ordenados.reverse()
+
             fim = time.perf_counter()
             tempo_execucao = fim - inicio
             tempo_insertion = tempo_execucao
@@ -78,8 +88,19 @@ while True:
 
         # Execução e Medição de Tempo Quick Sort
         case 3:
+            # Verifica se há Dados Internos Existentes
+            if not dados_aleatorios:
+                print("\nAviso: Gere os dados aleatórios primeiro (Opção 6)!")
+                continue
+
+            # Chama a para escolher a Ordem, Decrescente ou Crescente
+            decrescente = funcoes.escolher_ordem()
+
             inicio = time.perf_counter()
-            dados_ordenados = funcoes.quick_sort(dados_aleatorios) 
+            dados_ordenados = funcoes.quick_sort(dados_aleatorios)
+            if decrescente:
+                dados_ordenados.reverse()
+
             fim = time.perf_counter()
             tempo_execucao = fim - inicio 
             tempo_quick = tempo_execucao
@@ -214,12 +235,14 @@ while True:
                     match opcao_ex:
                         # Execução e Medição de Tempo Bubble Sort para Arquivo Externo
                         case 1:
+                            # Chama a para escolher a Ordem, Decrescente ou Crescente
+                            decrescente = funcoes.escolher_ordem()
+
                             inicio = time.perf_counter()
                             # Aqui se mostra o uso de key = lambda, para Recursão da Função com o uso da Variável "chave_busca".
-                            dados_ordenados = funcoes.bubble_sort(dados_externos, key = lambda x: x[chave_busca])
+                            dados_ordenados = funcoes.bubble_sort(dados_externos, key = lambda x: funcoes.normalizar_texto(x[chave_busca]))
 
-                            # Inverte a Lista para ordená-la de forma Decrescente caso o Dado seja do tipo Inteiro ou de Ponto Flutuante
-                            if dados_ordenados and isinstance(dados_ordenados[0][chave_busca], (int, float)):
+                            if decrescente:
                                 dados_ordenados.reverse()
 
                             fim = time.perf_counter()
@@ -229,12 +252,14 @@ while True:
                             funcoes.tracar_caminho(caminho_arquivo, dados_ordenados, tempo_execucao)
 
                         case 2:
+                            # Chama a para escolher a Ordem, Decrescente ou Crescente
+                            decrescente = funcoes.escolher_ordem()
+
                             inicio = time.perf_counter()
                             # Aqui se mostra o uso de key = lambda, para Recursão da Função com o uso da Variável "chave_busca".
-                            dados_ordenados = funcoes.insertion_sort(dados_externos, key = lambda x: x[chave_busca])
+                            dados_ordenados = funcoes.insertion_sort(dados_externos, key = lambda x: funcoes.normalizar_texto(x[chave_busca]))
 
-                            # Inverte a Lista para ordená-la de forma Decrescente caso o Dado seja do tipo Inteiro ou de Ponto Flutuante
-                            if dados_ordenados and isinstance(dados_ordenados[0][chave_busca], (int, float)):
+                            if decrescente:
                                 dados_ordenados.reverse()
 
                             fim = time.perf_counter()
@@ -244,12 +269,14 @@ while True:
                             funcoes.tracar_caminho(caminho_arquivo, dados_ordenados, tempo_execucao)
 
                         case 3:
+                            # Chama a para escolher a Ordem, Decrescente ou Crescente
+                            decrescente = funcoes.escolher_ordem()
+
                             inicio = time.perf_counter()
                             # Aqui se mostra o uso de key = lambda, para Recursão da Função com o uso da Variável "chave_busca".
-                            dados_ordenados = funcoes.quick_sort(dados_externos, key = lambda x: x[chave_busca])
+                            dados_ordenados = funcoes.quick_sort(dados_externos, key = lambda x: funcoes.normalizar_texto(x[chave_busca]))
 
-                            # Inverte a Lista para ordená-la de forma Decrescente caso o Dado seja do tipo Inteiro ou de Ponto Flutuante
-                            if dados_ordenados and isinstance(dados_ordenados[0][chave_busca], (int, float)):
+                            if decrescente:
                                 dados_ordenados.reverse()
 
                             fim = time.perf_counter()
@@ -280,3 +307,23 @@ while True:
                                 print("Quick Sort: Ainda não executado")
                 
                             print("\n")
+
+        case 6:
+            # Geração de Dados Aleatórios Internos
+            while True:
+                try:
+                    tamanho_vetor = int(input("\nDigite um número inteiro positivo para definir a quantidade de dados a ser gerada: "))
+                    if tamanho_vetor <= 0:
+                        print("\nA quantidade de dados deve ser maior que zero!")
+                        continue
+                    break
+                except ValueError:
+                    print("Erro: Por favor, digite apenas números inteiros.\n")
+
+            dados_aleatorios = random.choices(range(1, 1000000), k=tamanho_vetor)
+            print(f"Dados aleatórios em um vetor de {tamanho_vetor} valores gerados com êxito.\n")
+
+            # Reseta os Tempos Anteriores já que os Dados mudaram
+            tempo_bubble = None
+            tempo_insertion = None
+            tempo_quick = None
