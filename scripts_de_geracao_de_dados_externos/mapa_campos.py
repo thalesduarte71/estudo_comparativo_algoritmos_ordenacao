@@ -1,3 +1,4 @@
+# Dicionário para Facilitar Amostra nos Menus de Maneira Dinâmica no Programa Principal
 campos_contexto = {
     1: { # Imagens de Satélite
         1: ("Local", "local"),
@@ -5,7 +6,7 @@ campos_contexto = {
         3: ("Latitude", "latitude"),
         4: ("Longitude", "longitude")
     },
-    2: { # Partidas d Arcade
+    2: { # Partidas de Arcade
         1: ("Nome do Jogador", "nome_jogador"),
         2: ("Pontuação", "pontuacao"),
         3: ("Tempo da Partida (Segundos)", "tempo_partida_seg"),
