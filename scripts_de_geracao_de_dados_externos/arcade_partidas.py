@@ -6,7 +6,17 @@ from faker import Faker
 # Inicializa a Biblioteca Faker para geração de Informações Fictícias
 fake = Faker('pt_BR')
 
-qtd_dados = int(input("Digite quantos Dados deseja gerar: "))
+while True:
+    try:
+        qtd_dados = int(input("Digite quantos Dados de Arcade deseja gerar: "))
+
+        if qtd_dados <= 0:
+            print("Digite uma quantidade maior que zero.")
+            continue
+        break
+        
+    except ValueError:
+        print("Digite apenas um número inteiro.")
 
 # Declara a Constante "DIRETORIO_ATUAL" e a usa para navegar para a Pasta Anterior e adentrar na Pasta "pasta_dados_desordenados" esse caminho então fica armazenado na Constante "CAMINHO_PASTA", a partir dela declara o Caminho do Arquivo em "NOME_DO_ARQUIVO" com o nome esperado "jogadores_arcade.json"
 DIRETORIO_ATUAL = os.path.dirname(os.path.abspath(__file__))
@@ -31,7 +41,7 @@ for i in range (1, qtd_dados + 1):
 print("Gravando dados...")
 
 # Salva os Dados em um Novo Arquivo
-with open(NOME_DO_ARQUIVO, "w", encoding="utf-8") as f:
+with open(NOME_DO_ARQUIVO, "w", encoding = "utf-8") as f:
     json.dump(jogadores, f, ensure_ascii = False, indent = 2)
 
 print(f"Todos os {qtd_dados} dados foram gravados com sucesso em um arquivo .json!")

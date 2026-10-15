@@ -33,7 +33,7 @@ def gerar_nome_musica():
 # Verificação para Quantidade Válida de Músicas
 while True:
     try:
-        dados = int(input("Selecione a quantidade de músicas: "))
+        dados = int(input("Selecione a quantidade de Músicas a serem Geradas: "))
 
         if dados <= 0:
             print("Digite uma quantidade maior que zero.")
@@ -69,8 +69,8 @@ for i in range(1, dados + 1):
 print("Exportando dados...")
 
 # Salva os Dados em um Novo Arquivo
-with open(NOME_ARQUIVO, "w", encoding="utf-8") as f:
-    json.dump(musicas, f, ensure_ascii=False, indent=2)
+with open(NOME_ARQUIVO, "w", encoding = "utf-8") as f:
+    json.dump(musicas, f, ensure_ascii = False, indent = 2)
 
 print(f"\nSuas {dados} músicas foram gravadas com sucesso!")
 print(f"Arquivo: {NOME_ARQUIVO}")
