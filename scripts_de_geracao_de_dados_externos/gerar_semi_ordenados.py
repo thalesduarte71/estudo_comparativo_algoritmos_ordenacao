@@ -25,8 +25,8 @@ def extrair_chave_ordenacao(item, campo_escolhido): # "item" é de fato um Item 
     return (1, texto_normalizado)
 
 # O Core do Script
-diretorio_atual = os.path.dirname(os.path.abspath(__file__))
-pasta_desordenados = os.path.join(diretorio_atual, "..", "pasta_dados_desordenados")
+DIRETORIO_ATUAL = os.path.dirname(os.path.abspath(__file__))
+PASTA_DESORDENADOS = os.path.join(DIRETORIO_ATUAL, "..", "pasta_dados_desordenados")
 
 # Validação do Contexto
 while True:
@@ -53,14 +53,14 @@ while True:
     if not nome_arquivo.endswith(".json"):
         nome_arquivo += ".json"
         
-    caminho_entrada = os.path.join(pasta_desordenados, nome_arquivo)
+    CAMINHO_ENTRADA = os.path.join(PASTA_DESORDENADOS, nome_arquivo)
     
-    if not os.path.exists(caminho_entrada):
+    if not os.path.exists(CAMINHO_ENTRADA):
         print(f"\nErro: O Arquivo '{nome_arquivo}' não foi Encontrado na Pasta de Arquivos Desordenados! Tente novamente.")
         continue
     break
 
-with open(caminho_entrada, "r", encoding="utf-8") as f:
+with open(CAMINHO_ENTRADA, "r", encoding="utf-8") as f:
     dados = json.load(f)
     
 if not dados or not isinstance(dados, list):
@@ -120,6 +120,8 @@ while True:
 tamanho = len(dados)
 corte = int(tamanho * percentual) # Variável utilizada para o Splicing(Selecionar os arquivos do início até o Número indicado por essa Variável)
 
+print(f"\nProcessando... Ordenando parcialmente...")
+
 # "parte_ordenada" usa Sorted para Ordenar desde o Início da Lista até o valor do "corte", key usa lambda para acessar a função de normalização "extrair_chave_ordenacao" e "reverse" define se Inverte ou não
 parte_ordenada = sorted(dados[:corte], key = lambda x: extrair_chave_ordenacao(x, campo_escolhido), reverse = inverter)
 
@@ -131,7 +133,7 @@ dados_semi = parte_ordenada + parte_desordenada
 
 # Gera/Salva o Arquivo
 nome_saida = f"semi_{nome_arquivo}"
-caminho_saida = os.path.join(pasta_desordenados, nome_saida)
+caminho_saida = os.path.join(PASTA_DESORDENADOS, nome_saida)
 
 with open(caminho_saida, "w", encoding="utf-8") as f:
     json.dump(dados_semi, f, ensure_ascii=False, indent=2)

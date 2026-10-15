@@ -3,13 +3,17 @@ import os
 import random
 from faker import Faker
 
+# Inicializa a Biblioteca Faker para geração de Informações Fictícias
 fake = Faker('pt_BR')
 
 qtd_dados = int(input("Digite quantos Dados deseja gerar: "))
+
+# Declara a Constante "DIRETORIO_ATUAL" e a usa para navegar para a Pasta Anterior e adentrar na Pasta "pasta_dados_desordenados" esse caminho então fica armazenado na Constante "CAMINHO_PASTA", a partir dela declara o Caminho do Arquivo em "ARQUIVO_NOME" com o nome esperado "jogadores_arcade.json"
 DIRETORIO_ATUAL = os.path.dirname(os.path.abspath(__file__))
 CAMINHO_PASTA = os.path.join(DIRETORIO_ATUAL, "..", "pasta_dados_desordenados")
 ARQUIVO_NOME = os.path.join(CAMINHO_PASTA, "fotos_satelite_amazonia.json")
 
+# Dicionário com a Localização de algumas das Cidades do Norte do Brasil
 CIDADES = {
     "Manaus":      {"lat": (-4.09, -2.09), "long": (-61.06, -59.06)},
     "Belém":       {"lat": (-2.46, -0.46), "long": (-49.51, -47.51)},
@@ -21,6 +25,7 @@ CIDADES = {
     "Marabá":      {"lat": (-6.37, -4.37), "long": (-50.13, -48.13)},
 }
 
+# Função que verifica se a Localização fornecida pela Latitude e Longitude encontram-se em um Intervalo Coincidente com as Cidades no Dicionário
 def verificar_local(lat, long):
     for nome, intervalo in CIDADES.items():
         lat_min, lat_max = intervalo["lat"]
@@ -31,8 +36,10 @@ def verificar_local(lat, long):
 
 print(f"Iniciando a geração de {qtd_dados} dados...")
 
+# Inicializa a Lista "fotos"
 fotos = []
 
+# Loop que Gera os Dados por meio da Biblioteca Faker e os Insere na Lista através de ".append" ao final de cada Loop
 for i in range(1, qtd_dados + 1):
     lat = round(random.uniform(-9.0, 5.0), 5)
     long = round(random.uniform(-74.0, -44.0), 5)
@@ -47,6 +54,8 @@ for i in range(1, qtd_dados + 1):
     fotos.append(foto)
 
 print("Gravando dados...")
+
+# Salva os Dados em um Novo Arquivo
 with open(ARQUIVO_NOME, "w", encoding="utf-8") as f:
     json.dump(fotos, f, ensure_ascii=False, indent=2)
 
