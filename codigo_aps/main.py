@@ -56,10 +56,11 @@ while True:
 
             inicio = time.perf_counter()
             dados_ordenados = funcoes.bubble_sort(dados_aleatorios)
+            fim = time.perf_counter()
+
             if decrescente:
                 dados_ordenados.reverse()
 
-            fim = time.perf_counter()
             tempo_execucao = fim - inicio
             tempo_bubble = tempo_execucao
 
@@ -77,10 +78,11 @@ while True:
 
             inicio = time.perf_counter()
             dados_ordenados = funcoes.insertion_sort(dados_aleatorios)
+            fim = time.perf_counter()
+
             if decrescente:
                 dados_ordenados.reverse()
 
-            fim = time.perf_counter()
             tempo_execucao = fim - inicio
             tempo_insertion = tempo_execucao
 
@@ -98,10 +100,11 @@ while True:
 
             inicio = time.perf_counter()
             dados_ordenados = funcoes.quick_sort(dados_aleatorios)
+            fim = time.perf_counter()
+
             if decrescente:
                 dados_ordenados.reverse()
 
-            fim = time.perf_counter()
             tempo_execucao = fim - inicio 
             tempo_quick = tempo_execucao
 
@@ -241,11 +244,11 @@ while True:
                             inicio = time.perf_counter()
                             # Aqui se mostra o uso de key = lambda, para Recursão da Função com o uso da Variável "chave_busca".
                             dados_ordenados = funcoes.bubble_sort(dados_externos, key = lambda x: funcoes.normalizar_texto(x[chave_busca]))
+                            fim = time.perf_counter()
 
                             if decrescente:
                                 dados_ordenados.reverse()
 
-                            fim = time.perf_counter()
                             tempo_execucao = fim - inicio
                             tempo_bubble_ex = tempo_execucao
 
@@ -258,11 +261,11 @@ while True:
                             inicio = time.perf_counter()
                             # Aqui se mostra o uso de key = lambda, para Recursão da Função com o uso da Variável "chave_busca".
                             dados_ordenados = funcoes.insertion_sort(dados_externos, key = lambda x: funcoes.normalizar_texto(x[chave_busca]))
+                            fim = time.perf_counter()
 
                             if decrescente:
                                 dados_ordenados.reverse()
 
-                            fim = time.perf_counter()
                             tempo_execucao = fim - inicio
                             tempo_insertion_ex = tempo_execucao
 
@@ -275,11 +278,11 @@ while True:
                             inicio = time.perf_counter()
                             # Aqui se mostra o uso de key = lambda, para Recursão da Função com o uso da Variável "chave_busca".
                             dados_ordenados = funcoes.quick_sort(dados_externos, key = lambda x: funcoes.normalizar_texto(x[chave_busca]))
+                            fim = time.perf_counter()
 
                             if decrescente:
                                 dados_ordenados.reverse()
 
-                            fim = time.perf_counter()
                             tempo_execucao = fim - inicio
                             tempo_quick_ex = tempo_execucao
 
