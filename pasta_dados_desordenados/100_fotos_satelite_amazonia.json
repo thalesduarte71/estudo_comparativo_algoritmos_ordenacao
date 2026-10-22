@@ -1,0 +1,602 @@
+[
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-03-26 13:53:08",
+    "latitude": -3.62637,
+    "longitude": -58.085
+  },
+  {
+    "local": "Rio Branco",
+    "hora": "2026-07-08 21:14:18",
+    "latitude": -8.98953,
+    "longitude": -67.09382
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-01-29 01:53:30",
+    "latitude": -3.98827,
+    "longitude": -66.67036
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-05-26 22:57:31",
+    "latitude": -6.73073,
+    "longitude": -57.01558
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-01-02 13:36:47",
+    "latitude": -7.503,
+    "longitude": -55.40777
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2025-11-06 09:17:49",
+    "latitude": -8.23891,
+    "longitude": -60.60639
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2025-12-29 10:56:13",
+    "latitude": -4.80133,
+    "longitude": -59.58858
+  },
+  {
+    "local": "Manaus",
+    "hora": "2026-06-22 23:12:20",
+    "latitude": -3.87491,
+    "longitude": -59.67624
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-01-24 13:13:49",
+    "latitude": -5.38008,
+    "longitude": -67.81271
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-03-01 07:59:34",
+    "latitude": -7.11068,
+    "longitude": -61.22937
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-07-25 08:22:12",
+    "latitude": -5.97654,
+    "longitude": -53.61729
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-04-17 08:36:23",
+    "latitude": 4.96131,
+    "longitude": -62.19403
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-02-23 02:19:25",
+    "latitude": -0.30738,
+    "longitude": -52.74081
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-03-16 05:57:55",
+    "latitude": -6.46053,
+    "longitude": -49.5551
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-10-06 13:47:50",
+    "latitude": -6.21953,
+    "longitude": -73.0523
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-06-06 03:59:09",
+    "latitude": -2.74102,
+    "longitude": -56.91345
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-08-22 00:55:54",
+    "latitude": -1.89064,
+    "longitude": -68.174
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-05-26 21:55:20",
+    "latitude": -6.65432,
+    "longitude": -64.14063
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-05-12 20:37:33",
+    "latitude": -4.86081,
+    "longitude": -63.39275
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-01-23 06:52:01",
+    "latitude": 1.37485,
+    "longitude": -50.39545
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-09-30 00:20:27",
+    "latitude": -2.48242,
+    "longitude": -72.57726
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-10-05 01:13:56",
+    "latitude": -1.06689,
+    "longitude": -56.09346
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-01-03 16:42:58",
+    "latitude": -2.69157,
+    "longitude": -51.38536
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-05-10 23:05:08",
+    "latitude": 0.10924,
+    "longitude": -59.40595
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-08-19 15:49:24",
+    "latitude": -5.86121,
+    "longitude": -54.46265
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-09-05 11:42:48",
+    "latitude": -6.16616,
+    "longitude": -53.34048
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-05-17 04:07:30",
+    "latitude": -4.56963,
+    "longitude": -67.81527
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-03-06 14:55:31",
+    "latitude": -1.30905,
+    "longitude": -71.64888
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2025-11-02 14:51:02",
+    "latitude": 2.55882,
+    "longitude": -49.31561
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-07-03 22:11:03",
+    "latitude": 4.43822,
+    "longitude": -71.66582
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-04-22 10:59:01",
+    "latitude": -8.9112,
+    "longitude": -45.07724
+  },
+  {
+    "local": "Macapá",
+    "hora": "2026-10-22 06:15:57",
+    "latitude": -0.87403,
+    "longitude": -50.94476
+  },
+  {
+    "local": "Santarém",
+    "hora": "2026-07-26 05:25:33",
+    "latitude": -1.88942,
+    "longitude": -53.82573
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2025-12-14 13:08:46",
+    "latitude": 3.92749,
+    "longitude": -64.40336
+  },
+  {
+    "local": "Belém",
+    "hora": "2026-05-12 07:19:54",
+    "latitude": -0.9449,
+    "longitude": -47.5842
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-07-04 01:51:14",
+    "latitude": -4.66871,
+    "longitude": -56.49162
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2025-12-16 10:33:42",
+    "latitude": 2.02884,
+    "longitude": -73.2752
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2025-12-07 23:06:55",
+    "latitude": -7.80927,
+    "longitude": -66.18339
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-08-23 08:55:27",
+    "latitude": 0.36556,
+    "longitude": -47.19335
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-09-16 02:50:05",
+    "latitude": 2.24135,
+    "longitude": -73.69774
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-05-05 16:00:07",
+    "latitude": -6.69396,
+    "longitude": -70.47084
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-03-08 19:25:27",
+    "latitude": 0.72098,
+    "longitude": -68.1871
+  },
+  {
+    "local": "Macapá",
+    "hora": "2026-01-09 17:14:08",
+    "latitude": 0.25834,
+    "longitude": -50.11281
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-08-26 18:05:02",
+    "latitude": 4.49863,
+    "longitude": -53.16113
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-04-29 17:48:22",
+    "latitude": -2.94889,
+    "longitude": -70.15629
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-05-20 20:40:59",
+    "latitude": -2.41517,
+    "longitude": -46.24358
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-04-28 18:57:45",
+    "latitude": 4.87684,
+    "longitude": -49.72066
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-01-13 16:03:56",
+    "latitude": 3.5346,
+    "longitude": -69.82477
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-09-18 02:58:34",
+    "latitude": -7.38121,
+    "longitude": -56.14758
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-10-11 02:38:51",
+    "latitude": 0.17327,
+    "longitude": -44.88296
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2025-12-27 23:51:40",
+    "latitude": 4.61425,
+    "longitude": -57.22529
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-08-26 19:29:40",
+    "latitude": 1.92436,
+    "longitude": -50.1731
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-10-18 12:08:19",
+    "latitude": 0.04132,
+    "longitude": -53.47998
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-03-01 15:26:58",
+    "latitude": -4.33058,
+    "longitude": -53.57456
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-08-24 17:03:52",
+    "latitude": -0.14524,
+    "longitude": -71.01529
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-07-10 23:36:25",
+    "latitude": 4.51476,
+    "longitude": -57.26508
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-04-24 03:47:58",
+    "latitude": 1.53518,
+    "longitude": -44.09454
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-01-27 11:19:43",
+    "latitude": 1.41887,
+    "longitude": -68.56037
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-05-08 16:13:11",
+    "latitude": 0.13868,
+    "longitude": -63.35074
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-06-30 10:09:13",
+    "latitude": -1.93098,
+    "longitude": -62.24635
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2025-12-14 05:03:57",
+    "latitude": -5.72582,
+    "longitude": -61.64946
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-05-16 15:22:32",
+    "latitude": -6.21139,
+    "longitude": -70.7198
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2025-12-24 22:27:53",
+    "latitude": -0.32576,
+    "longitude": -49.79577
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-04-14 17:46:18",
+    "latitude": -6.5652,
+    "longitude": -70.88161
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-05-02 16:58:41",
+    "latitude": -8.09015,
+    "longitude": -44.99261
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-07-31 03:38:18",
+    "latitude": 1.37543,
+    "longitude": -64.61098
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-07-20 09:08:13",
+    "latitude": 1.41176,
+    "longitude": -55.30262
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-07-23 23:27:08",
+    "latitude": 1.52886,
+    "longitude": -72.02729
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-09-01 08:09:06",
+    "latitude": -5.59265,
+    "longitude": -45.01741
+  },
+  {
+    "local": "Manaus",
+    "hora": "2025-10-24 01:49:31",
+    "latitude": -2.99107,
+    "longitude": -60.84897
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-04-25 12:48:44",
+    "latitude": -5.01117,
+    "longitude": -67.54132
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-09-20 06:26:44",
+    "latitude": 3.75962,
+    "longitude": -67.19064
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-04-18 15:50:30",
+    "latitude": -0.24931,
+    "longitude": -63.48706
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-03-26 23:56:50",
+    "latitude": -7.35274,
+    "longitude": -70.62685
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-03-30 06:20:47",
+    "latitude": -7.96956,
+    "longitude": -68.23747
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-02-21 16:18:34",
+    "latitude": -2.78239,
+    "longitude": -49.13134
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-03-08 12:01:05",
+    "latitude": -3.66463,
+    "longitude": -71.49121
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-07-04 21:12:57",
+    "latitude": -6.27839,
+    "longitude": -45.40467
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-01-12 01:37:17",
+    "latitude": 4.95537,
+    "longitude": -56.52335
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2025-10-30 13:21:42",
+    "latitude": -4.5458,
+    "longitude": -63.89304
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-09-24 03:00:36",
+    "latitude": -8.93594,
+    "longitude": -65.18108
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-04-12 17:28:59",
+    "latitude": -5.46134,
+    "longitude": -47.13815
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-01-24 04:11:09",
+    "latitude": 4.13425,
+    "longitude": -60.15592
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-06-23 15:32:29",
+    "latitude": -6.59864,
+    "longitude": -56.52623
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-07-18 17:40:52",
+    "latitude": -8.36997,
+    "longitude": -67.52829
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-02-03 10:36:38",
+    "latitude": -5.59855,
+    "longitude": -57.66168
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2025-12-03 15:56:01",
+    "latitude": -0.10972,
+    "longitude": -44.23272
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2025-11-30 08:14:50",
+    "latitude": 4.4251,
+    "longitude": -45.08646
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-07-18 19:03:46",
+    "latitude": -8.34962,
+    "longitude": -49.98884
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-07-14 11:10:29",
+    "latitude": -6.72971,
+    "longitude": -61.98845
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-10-05 09:38:11",
+    "latitude": -7.03973,
+    "longitude": -64.94606
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-03-24 20:48:17",
+    "latitude": -0.69945,
+    "longitude": -52.65845
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-01-29 07:52:27",
+    "latitude": -1.28694,
+    "longitude": -61.51034
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2025-12-19 16:36:55",
+    "latitude": -5.85397,
+    "longitude": -66.78459
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-06-04 07:25:18",
+    "latitude": -5.62087,
+    "longitude": -65.29511
+  },
+  {
+    "local": "Belém",
+    "hora": "2025-12-24 14:28:35",
+    "latitude": -1.03264,
+    "longitude": -47.65786
+  },
+  {
+    "local": "Santarém",
+    "hora": "2026-09-20 15:37:59",
+    "latitude": -1.86575,
+    "longitude": -55.67406
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-07-31 15:18:14",
+    "latitude": 0.96938,
+    "longitude": -46.88732
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-09-09 20:04:39",
+    "latitude": 4.91055,
+    "longitude": -62.39309
+  },
+  {
+    "local": "Floresta Amazônica",
+    "hora": "2026-07-01 19:18:29",
+    "latitude": 0.00377,
+    "longitude": -69.04613
+  }
+]

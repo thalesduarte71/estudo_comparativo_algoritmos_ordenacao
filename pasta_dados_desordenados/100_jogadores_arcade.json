@@ -1,0 +1,602 @@
+[
+  {
+    "nome_jogador": "hmendes",
+    "pontuacao": 25682327,
+    "tempo_partida_seg": 2938,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "valentimcavalcante",
+    "pontuacao": 12223409,
+    "tempo_partida_seg": 1807,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "sophiaramos",
+    "pontuacao": 93364998,
+    "tempo_partida_seg": 3566,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "gomesana-clara",
+    "pontuacao": 53725248,
+    "tempo_partida_seg": 2173,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "davi-lucas99",
+    "pontuacao": 73562346,
+    "tempo_partida_seg": 1125,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "da-cruzbianca",
+    "pontuacao": 38346031,
+    "tempo_partida_seg": 609,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "correianatalia",
+    "pontuacao": 93127458,
+    "tempo_partida_seg": 3228,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "montenegroravi-lucca",
+    "pontuacao": 76785985,
+    "tempo_partida_seg": 1805,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "pintobernardo",
+    "pontuacao": 15169063,
+    "tempo_partida_seg": 1587,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "matheus69",
+    "pontuacao": 57446107,
+    "tempo_partida_seg": 2891,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "isabella42",
+    "pontuacao": 24689133,
+    "tempo_partida_seg": 628,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "moreiradavi-lucas",
+    "pontuacao": 2796082,
+    "tempo_partida_seg": 3028,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "sousakevin",
+    "pontuacao": 60576492,
+    "tempo_partida_seg": 1460,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "bentoramos",
+    "pontuacao": 55129605,
+    "tempo_partida_seg": 2998,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "duartejose-pedro",
+    "pontuacao": 63501918,
+    "tempo_partida_seg": 1352,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "kleao",
+    "pontuacao": 616936,
+    "tempo_partida_seg": 2351,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "vsousa",
+    "pontuacao": 84199214,
+    "tempo_partida_seg": 1026,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "laura71",
+    "pontuacao": 19971268,
+    "tempo_partida_seg": 989,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "manuelarezende",
+    "pontuacao": 69301075,
+    "tempo_partida_seg": 985,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "jpereira",
+    "pontuacao": 69878714,
+    "tempo_partida_seg": 1434,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "caldeirajosue",
+    "pontuacao": 69286779,
+    "tempo_partida_seg": 3262,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "hcaldeira",
+    "pontuacao": 96389177,
+    "tempo_partida_seg": 2843,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "olivia17",
+    "pontuacao": 8528231,
+    "tempo_partida_seg": 1969,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "valentim87",
+    "pontuacao": 41292023,
+    "tempo_partida_seg": 2238,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "heloisaborges",
+    "pontuacao": 73638583,
+    "tempo_partida_seg": 1111,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "matteomoraes",
+    "pontuacao": 69837670,
+    "tempo_partida_seg": 2895,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "jade61",
+    "pontuacao": 67579320,
+    "tempo_partida_seg": 1942,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "yago60",
+    "pontuacao": 2535549,
+    "tempo_partida_seg": 3581,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "da-cruzmaria-luiza",
+    "pontuacao": 83842686,
+    "tempo_partida_seg": 2575,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "camaramaria-laura",
+    "pontuacao": 71459086,
+    "tempo_partida_seg": 482,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "isis57",
+    "pontuacao": 18540947,
+    "tempo_partida_seg": 1298,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "vbarros",
+    "pontuacao": 54553474,
+    "tempo_partida_seg": 2722,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "agathacaldeira",
+    "pontuacao": 22770931,
+    "tempo_partida_seg": 3540,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "maria-isisabreu",
+    "pontuacao": 20556533,
+    "tempo_partida_seg": 3395,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "nunesfelipe",
+    "pontuacao": 9550679,
+    "tempo_partida_seg": 2896,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "leaoryan",
+    "pontuacao": 39135137,
+    "tempo_partida_seg": 845,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "isabelmontenegro",
+    "pontuacao": 60030699,
+    "tempo_partida_seg": 1033,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "luiz-fernando07",
+    "pontuacao": 54329107,
+    "tempo_partida_seg": 2680,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "castronicolas",
+    "pontuacao": 34284721,
+    "tempo_partida_seg": 2425,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "bellanovais",
+    "pontuacao": 15094846,
+    "tempo_partida_seg": 1499,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "laura71",
+    "pontuacao": 26290111,
+    "tempo_partida_seg": 2474,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "manuelavieira",
+    "pontuacao": 11240802,
+    "tempo_partida_seg": 2825,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "kcamargo",
+    "pontuacao": 81481819,
+    "tempo_partida_seg": 2490,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "souzaisabel",
+    "pontuacao": 27950183,
+    "tempo_partida_seg": 2096,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "beatrizjesus",
+    "pontuacao": 73975114,
+    "tempo_partida_seg": 737,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "beatrizfreitas",
+    "pontuacao": 66413832,
+    "tempo_partida_seg": 1980,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "erick57",
+    "pontuacao": 44497604,
+    "tempo_partida_seg": 3211,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "raulfreitas",
+    "pontuacao": 7421799,
+    "tempo_partida_seg": 267,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "vargasjoao-lucas",
+    "pontuacao": 55562998,
+    "tempo_partida_seg": 1562,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "allanamartins",
+    "pontuacao": 83121769,
+    "tempo_partida_seg": 1160,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "bruno71",
+    "pontuacao": 24945485,
+    "tempo_partida_seg": 299,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "marinanascimento",
+    "pontuacao": 38747799,
+    "tempo_partida_seg": 966,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "smendonca",
+    "pontuacao": 82626480,
+    "tempo_partida_seg": 487,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "oda-luz",
+    "pontuacao": 27271491,
+    "tempo_partida_seg": 2277,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "cfonseca",
+    "pontuacao": 88151976,
+    "tempo_partida_seg": 104,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "sophiedias",
+    "pontuacao": 80124792,
+    "tempo_partida_seg": 2226,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "estherazevedo",
+    "pontuacao": 30854767,
+    "tempo_partida_seg": 3028,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "bgomes",
+    "pontuacao": 30260257,
+    "tempo_partida_seg": 140,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "ana-carolina58",
+    "pontuacao": 16688187,
+    "tempo_partida_seg": 1237,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "emanuellyfernandes",
+    "pontuacao": 61290920,
+    "tempo_partida_seg": 2625,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "otavio78",
+    "pontuacao": 61553826,
+    "tempo_partida_seg": 2140,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "alexandresiqueira",
+    "pontuacao": 75002420,
+    "tempo_partida_seg": 2721,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "silveirarodrigo",
+    "pontuacao": 30995559,
+    "tempo_partida_seg": 968,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "maria-isisrodrigues",
+    "pontuacao": 40196603,
+    "tempo_partida_seg": 1052,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "pintomaya",
+    "pontuacao": 98008555,
+    "tempo_partida_seg": 1134,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "rda-rocha",
+    "pontuacao": 1548866,
+    "tempo_partida_seg": 1511,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "oliver68",
+    "pontuacao": 88959716,
+    "tempo_partida_seg": 2031,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "helenasantos",
+    "pontuacao": 23360821,
+    "tempo_partida_seg": 1375,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "nicolassilveira",
+    "pontuacao": 97716834,
+    "tempo_partida_seg": 517,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "rgarcia",
+    "pontuacao": 67634798,
+    "tempo_partida_seg": 1386,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "melissaviana",
+    "pontuacao": 92844921,
+    "tempo_partida_seg": 1472,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "msantos",
+    "pontuacao": 15326723,
+    "tempo_partida_seg": 2865,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "henry10",
+    "pontuacao": 18399382,
+    "tempo_partida_seg": 89,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "cavalcantibento",
+    "pontuacao": 68692644,
+    "tempo_partida_seg": 1412,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "tsilveira",
+    "pontuacao": 34484313,
+    "tempo_partida_seg": 2871,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "laispacheco",
+    "pontuacao": 47776134,
+    "tempo_partida_seg": 1782,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "lnovais",
+    "pontuacao": 6054113,
+    "tempo_partida_seg": 2787,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "pietro78",
+    "pontuacao": 29649414,
+    "tempo_partida_seg": 717,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "nporto",
+    "pontuacao": 79009629,
+    "tempo_partida_seg": 3157,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "kpeixoto",
+    "pontuacao": 18132458,
+    "tempo_partida_seg": 1625,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "josue75",
+    "pontuacao": 64886943,
+    "tempo_partida_seg": 2342,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "hmendes",
+    "pontuacao": 93808891,
+    "tempo_partida_seg": 1549,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "isabel08",
+    "pontuacao": 80258971,
+    "tempo_partida_seg": 2143,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "maria-sophia13",
+    "pontuacao": 32968404,
+    "tempo_partida_seg": 2956,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "lopesmanuella",
+    "pontuacao": 7593789,
+    "tempo_partida_seg": 2048,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "da-costaisaac",
+    "pontuacao": 68394471,
+    "tempo_partida_seg": 3354,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "zoe15",
+    "pontuacao": 56314172,
+    "tempo_partida_seg": 3054,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "vda-conceicao",
+    "pontuacao": 96575577,
+    "tempo_partida_seg": 1943,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "maite32",
+    "pontuacao": 72337,
+    "tempo_partida_seg": 649,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "oliviapimenta",
+    "pontuacao": 46200927,
+    "tempo_partida_seg": 34,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "da-cunhaliz",
+    "pontuacao": 66808186,
+    "tempo_partida_seg": 2182,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "benjaminmartins",
+    "pontuacao": 7204367,
+    "tempo_partida_seg": 2828,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "theo20",
+    "pontuacao": 85480771,
+    "tempo_partida_seg": 673,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "thomas22",
+    "pontuacao": 62091661,
+    "tempo_partida_seg": 870,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "acarvalho",
+    "pontuacao": 35850113,
+    "tempo_partida_seg": 1530,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "cecilia95",
+    "pontuacao": 31920952,
+    "tempo_partida_seg": 2327,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "arthur-gabriel04",
+    "pontuacao": 86912244,
+    "tempo_partida_seg": 3122,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "rafaelada-cunha",
+    "pontuacao": 91758221,
+    "tempo_partida_seg": 1013,
+    "venceu_partida": false
+  },
+  {
+    "nome_jogador": "gustavocosta",
+    "pontuacao": 6040230,
+    "tempo_partida_seg": 2471,
+    "venceu_partida": true
+  },
+  {
+    "nome_jogador": "vinicius13",
+    "pontuacao": 64807812,
+    "tempo_partida_seg": 2661,
+    "venceu_partida": true
+  }
+]

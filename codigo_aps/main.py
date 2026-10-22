@@ -11,7 +11,7 @@ import unicodedata
 tempo_bubble = None
 tempo_insertion = None
 tempo_quick = None
-
+dados_aleatorios = []
 # Menu de Execução    
 while True:
     print("="*50)

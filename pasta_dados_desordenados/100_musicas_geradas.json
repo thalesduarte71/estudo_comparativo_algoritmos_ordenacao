@@ -1,0 +1,602 @@
+[
+  {
+    "nome_musica": "Silencioso Céu Que Brilha (Ao Vivo)",
+    "artista": "Diogo Pimenta",
+    "visualizacoes": 55088,
+    "data_lancamento": "2022-04-07"
+  },
+  {
+    "nome_musica": "Ardente Rio Que Arde (Instrumental)",
+    "artista": "Maria Eduarda Rios",
+    "visualizacoes": 314594,
+    "data_lancamento": "2023-03-20"
+  },
+  {
+    "nome_musica": "Silencioso Sol Que Brilha (Remasterizado)",
+    "artista": "Gael Henrique Castro",
+    "visualizacoes": 68846,
+    "data_lancamento": "2024-06-16"
+  },
+  {
+    "nome_musica": "Silencioso Sol Que Voa (Edição Especial)",
+    "artista": "João Felipe Campos",
+    "visualizacoes": 28487,
+    "data_lancamento": "2023-03-29"
+  },
+  {
+    "nome_musica": "Selvagem Caminho Que Chega (Remix)",
+    "artista": "Bryan Novais",
+    "visualizacoes": 139594,
+    "data_lancamento": "2023-11-27"
+  },
+  {
+    "nome_musica": "Eterno Flor Que Arde (No Verão)",
+    "artista": "Bernardo Costa",
+    "visualizacoes": 136,
+    "data_lancamento": "2026-10-01"
+  },
+  {
+    "nome_musica": "Profundo Sombra Que Voa (À Meia-Noite)",
+    "artista": "Beatriz Nunes",
+    "visualizacoes": 111541,
+    "data_lancamento": "2024-06-06"
+  },
+  {
+    "nome_musica": "Profundo Lua Que Brilha (Remix)",
+    "artista": "Bryan Machado",
+    "visualizacoes": 31132,
+    "data_lancamento": "2024-07-09"
+  },
+  {
+    "nome_musica": "Intenso Dia Que Sonha",
+    "artista": "Ana Clara Caldeira",
+    "visualizacoes": 113162,
+    "data_lancamento": "2023-12-27"
+  },
+  {
+    "nome_musica": "Ardente Rio Que Dança (Instrumental)",
+    "artista": "Ísis Vargas",
+    "visualizacoes": 46511,
+    "data_lancamento": "2022-11-12"
+  },
+  {
+    "nome_musica": "Ardente Mar Que Chega (Versão Acústica)",
+    "artista": "Pedro Henrique Vasconcelos",
+    "visualizacoes": 217190,
+    "data_lancamento": "2025-05-10"
+  },
+  {
+    "nome_musica": "Ardente Sonho Que Chora (Reinterpretação)",
+    "artista": "Pedro Mendes",
+    "visualizacoes": 51733,
+    "data_lancamento": "2023-04-21"
+  },
+  {
+    "nome_musica": "Silencioso Sonho Que Sonha (Reinterpretação)",
+    "artista": "Enzo Gabriel da Cunha",
+    "visualizacoes": 15906,
+    "data_lancamento": "2024-12-08"
+  },
+  {
+    "nome_musica": "Sereno Coração Que Voa (Versão Acústica)",
+    "artista": "Benício Pastor",
+    "visualizacoes": 80495,
+    "data_lancamento": "2026-07-03"
+  },
+  {
+    "nome_musica": "Distante Flor Que Voa (Remasterizado)",
+    "artista": "Ana Liz Melo",
+    "visualizacoes": 155271,
+    "data_lancamento": "2023-06-04"
+  },
+  {
+    "nome_musica": "Profundo Trovão Que Brilha (No Verão)",
+    "artista": "Luiz Felipe Araújo",
+    "visualizacoes": 59205,
+    "data_lancamento": "2026-09-06"
+  },
+  {
+    "nome_musica": "Imortal Noite Que Grita (À Meia-Noite)",
+    "artista": "Stella Guerra",
+    "visualizacoes": 336380,
+    "data_lancamento": "2024-01-02"
+  },
+  {
+    "nome_musica": "Perdido Rio Que Grita (À Meia-Noite)",
+    "artista": "Brenda Novais",
+    "visualizacoes": 7934,
+    "data_lancamento": "2021-11-22"
+  },
+  {
+    "nome_musica": "Fugaz Flor Que Voa (À Meia-Noite)",
+    "artista": "Melissa Castro",
+    "visualizacoes": 114654,
+    "data_lancamento": "2024-01-26"
+  },
+  {
+    "nome_musica": "Intenso Estrela Que Parte (Reinterpretação)",
+    "artista": "Melina Fogaça",
+    "visualizacoes": 52502,
+    "data_lancamento": "2025-11-06"
+  },
+  {
+    "nome_musica": "Profundo Trovão Que Voa",
+    "artista": "Léo da Luz",
+    "visualizacoes": 262822,
+    "data_lancamento": "2023-03-02"
+  },
+  {
+    "nome_musica": "Dourado Flor Que Arde (Versão Acústica)",
+    "artista": "João Felipe Lopes",
+    "visualizacoes": 46746,
+    "data_lancamento": "2024-07-08"
+  },
+  {
+    "nome_musica": "Fugaz Silêncio Que Dança (À Meia-Noite)",
+    "artista": "Francisco Novais",
+    "visualizacoes": 76701,
+    "data_lancamento": "2021-12-31"
+  },
+  {
+    "nome_musica": "Profundo Noite Que Brilha",
+    "artista": "Ayla Guerra",
+    "visualizacoes": 30579,
+    "data_lancamento": "2026-06-01"
+  },
+  {
+    "nome_musica": "Eterno Estrela Que Arde (Ao Vivo)",
+    "artista": "Juan Lopes",
+    "visualizacoes": 30609,
+    "data_lancamento": "2023-02-04"
+  },
+  {
+    "nome_musica": "Intenso Chuva Que Chora (Edição Especial)",
+    "artista": "Luiza Pastor",
+    "visualizacoes": 38509,
+    "data_lancamento": "2023-01-07"
+  },
+  {
+    "nome_musica": "Dourado Sol Que Chega (Edição Especial)",
+    "artista": "Bento Melo",
+    "visualizacoes": 14344,
+    "data_lancamento": "2025-02-09"
+  },
+  {
+    "nome_musica": "Intenso Chuva Que Dança (Versão Acústica)",
+    "artista": "Beatriz Teixeira",
+    "visualizacoes": 90030,
+    "data_lancamento": "2026-10-05"
+  },
+  {
+    "nome_musica": "Selvagem Caminho Que Brilha (Instrumental)",
+    "artista": "Henry Gabriel Lopes",
+    "visualizacoes": 56249,
+    "data_lancamento": "2025-12-05"
+  },
+  {
+    "nome_musica": "Silencioso Lua Que Brilha (Reinterpretação)",
+    "artista": "João Guilherme Pacheco",
+    "visualizacoes": 56404,
+    "data_lancamento": "2022-08-17"
+  },
+  {
+    "nome_musica": "Silencioso Caminho Que Grita (Ao Vivo)",
+    "artista": "Léo Mendonça",
+    "visualizacoes": 24249,
+    "data_lancamento": "2022-05-27"
+  },
+  {
+    "nome_musica": "Silencioso Lua Que Chora",
+    "artista": "Valentim Cirino",
+    "visualizacoes": 4365,
+    "data_lancamento": "2022-12-07"
+  },
+  {
+    "nome_musica": "Dourado Coração Que Chega (Edição Especial)",
+    "artista": "Maitê Freitas",
+    "visualizacoes": 119894,
+    "data_lancamento": "2023-09-29"
+  },
+  {
+    "nome_musica": "Sereno Vento Que Brilha (Remix)",
+    "artista": "Ana Cecília Fonseca",
+    "visualizacoes": 164758,
+    "data_lancamento": "2023-05-08"
+  },
+  {
+    "nome_musica": "Intenso Sol Que Voa",
+    "artista": "Davi Gomes",
+    "visualizacoes": 60511,
+    "data_lancamento": "2022-02-10"
+  },
+  {
+    "nome_musica": "Distante Sol Que Chega (Instrumental)",
+    "artista": "Allana Oliveira",
+    "visualizacoes": 94933,
+    "data_lancamento": "2025-05-29"
+  },
+  {
+    "nome_musica": "Intenso Trovão Que Chega (No Verão)",
+    "artista": "Mateus Caldeira",
+    "visualizacoes": 255363,
+    "data_lancamento": "2023-10-09"
+  },
+  {
+    "nome_musica": "Distante Noite Que Fica (Ao Vivo)",
+    "artista": "Milena Fonseca",
+    "visualizacoes": 100736,
+    "data_lancamento": "2023-05-01"
+  },
+  {
+    "nome_musica": "Distante Noite Que Sonha (Remix)",
+    "artista": "Bruna Cavalcante",
+    "visualizacoes": 73765,
+    "data_lancamento": "2022-03-16"
+  },
+  {
+    "nome_musica": "Solitário Vento Que Voa (Ao Vivo)",
+    "artista": "Maria Sophia Lima",
+    "visualizacoes": 235872,
+    "data_lancamento": "2025-11-03"
+  },
+  {
+    "nome_musica": "Selvagem Coração Que Chega (À Meia-Noite)",
+    "artista": "Gael Nogueira",
+    "visualizacoes": 198045,
+    "data_lancamento": "2022-03-01"
+  },
+  {
+    "nome_musica": "Solitário Trovão Que Arde (Versão Acústica)",
+    "artista": "Mariane Pinto",
+    "visualizacoes": 187086,
+    "data_lancamento": "2024-05-10"
+  },
+  {
+    "nome_musica": "Dourado Sol Que Parte (À Meia-Noite)",
+    "artista": "Antônio Castro",
+    "visualizacoes": 285175,
+    "data_lancamento": "2025-02-22"
+  },
+  {
+    "nome_musica": "Selvagem Coração Que Arde",
+    "artista": "Emanuella Aragão",
+    "visualizacoes": 92319,
+    "data_lancamento": "2021-12-08"
+  },
+  {
+    "nome_musica": "Solitário Estrela Que Chega (Ao Vivo)",
+    "artista": "Brayan Pacheco",
+    "visualizacoes": 138907,
+    "data_lancamento": "2021-12-30"
+  },
+  {
+    "nome_musica": "Intenso Mar Que Dança (Ao Vivo)",
+    "artista": "Julia Leão",
+    "visualizacoes": 252559,
+    "data_lancamento": "2024-12-29"
+  },
+  {
+    "nome_musica": "Infinito Noite Que Chega (Edição Especial)",
+    "artista": "Gustavo Henrique Novais",
+    "visualizacoes": 1643,
+    "data_lancamento": "2025-02-11"
+  },
+  {
+    "nome_musica": "Sereno Noite Que Chora",
+    "artista": "Ana Julia Carvalho",
+    "visualizacoes": 381799,
+    "data_lancamento": "2025-07-13"
+  },
+  {
+    "nome_musica": "Selvagem Chuva Que Fica (Ao Vivo)",
+    "artista": "Yan Fonseca",
+    "visualizacoes": 171562,
+    "data_lancamento": "2022-05-29"
+  },
+  {
+    "nome_musica": "Silencioso Dia Que Fica (Remasterizado)",
+    "artista": "João Lucas da Cruz",
+    "visualizacoes": 94112,
+    "data_lancamento": "2025-11-26"
+  },
+  {
+    "nome_musica": "Sereno Dia Que Sonha (Instrumental)",
+    "artista": "Mariah Oliveira",
+    "visualizacoes": 265016,
+    "data_lancamento": "2026-10-20"
+  },
+  {
+    "nome_musica": "Selvagem Coração Que Grita (Edição Especial)",
+    "artista": "Heloísa Lopes",
+    "visualizacoes": 328893,
+    "data_lancamento": "2024-04-22"
+  },
+  {
+    "nome_musica": "Solitário Chuva Que Grita (Versão Acústica)",
+    "artista": "Asafe Pereira",
+    "visualizacoes": 70302,
+    "data_lancamento": "2022-10-06"
+  },
+  {
+    "nome_musica": "Fugaz Vento Que Chega (Ao Vivo)",
+    "artista": "Maria Luísa Castro",
+    "visualizacoes": 20101,
+    "data_lancamento": "2022-09-12"
+  },
+  {
+    "nome_musica": "Intenso Noite Que Grita",
+    "artista": "Vicente Almeida",
+    "visualizacoes": 19439,
+    "data_lancamento": "2026-04-03"
+  },
+  {
+    "nome_musica": "Sagrado Fogo Que Dança (À Meia-Noite)",
+    "artista": "Matteo Rocha",
+    "visualizacoes": 157234,
+    "data_lancamento": "2021-12-16"
+  },
+  {
+    "nome_musica": "Imortal Dia Que Grita (Reinterpretação)",
+    "artista": "Luana Albuquerque",
+    "visualizacoes": 317319,
+    "data_lancamento": "2024-07-26"
+  },
+  {
+    "nome_musica": "Perdido Flor Que Parte",
+    "artista": "Rafael Araújo",
+    "visualizacoes": 14317,
+    "data_lancamento": "2023-01-28"
+  },
+  {
+    "nome_musica": "Fugaz Caminho Que Parte (Remasterizado)",
+    "artista": "Júlia Cavalcante",
+    "visualizacoes": 266106,
+    "data_lancamento": "2024-12-13"
+  },
+  {
+    "nome_musica": "Solitário Coração Que Parte (Versão Acústica)",
+    "artista": "Diego Teixeira",
+    "visualizacoes": 200676,
+    "data_lancamento": "2023-04-29"
+  },
+  {
+    "nome_musica": "Profundo Céu Que Chega (Ao Vivo)",
+    "artista": "Olívia Fonseca",
+    "visualizacoes": 36067,
+    "data_lancamento": "2022-12-09"
+  },
+  {
+    "nome_musica": "Selvagem Sonho Que Parte (Ao Vivo)",
+    "artista": "Luan Albuquerque",
+    "visualizacoes": 83230,
+    "data_lancamento": "2025-12-26"
+  },
+  {
+    "nome_musica": "Dourado Dia Que Chora (À Meia-Noite)",
+    "artista": "Isabella Novaes",
+    "visualizacoes": 66213,
+    "data_lancamento": "2023-05-12"
+  },
+  {
+    "nome_musica": "Silencioso Silêncio Que Brilha (No Verão)",
+    "artista": "Lunna Melo",
+    "visualizacoes": 24111,
+    "data_lancamento": "2023-07-14"
+  },
+  {
+    "nome_musica": "Fugaz Dia Que Dança (Remix)",
+    "artista": "João Felipe Leão",
+    "visualizacoes": 217909,
+    "data_lancamento": "2022-05-08"
+  },
+  {
+    "nome_musica": "Perdido Flor Que Sonha (No Verão)",
+    "artista": "Helena Lima",
+    "visualizacoes": 807700,
+    "data_lancamento": "2024-03-20"
+  },
+  {
+    "nome_musica": "Selvagem Flor Que Grita (No Verão)",
+    "artista": "Vitor Pereira",
+    "visualizacoes": 25415,
+    "data_lancamento": "2022-05-08"
+  },
+  {
+    "nome_musica": "Selvagem Vento Que Chega (Remasterizado)",
+    "artista": "Caroline Mendonça",
+    "visualizacoes": 343363,
+    "data_lancamento": "2022-04-23"
+  },
+  {
+    "nome_musica": "Selvagem Flor Que Chega (Edição Especial)",
+    "artista": "Calebe Pinto",
+    "visualizacoes": 40563,
+    "data_lancamento": "2023-01-31"
+  },
+  {
+    "nome_musica": "Dourado Fogo Que Chega (Instrumental)",
+    "artista": "Maria Vitória Moraes",
+    "visualizacoes": 49710,
+    "data_lancamento": "2025-08-11"
+  },
+  {
+    "nome_musica": "Distante Fogo Que Parte (No Verão)",
+    "artista": "Isaac Souza",
+    "visualizacoes": 189298,
+    "data_lancamento": "2023-03-18"
+  },
+  {
+    "nome_musica": "Silencioso Mar Que Brilha (Ao Vivo)",
+    "artista": "Emanuelly Guerra",
+    "visualizacoes": 44453,
+    "data_lancamento": "2024-08-28"
+  },
+  {
+    "nome_musica": "Sagrado Chuva Que Parte (Instrumental)",
+    "artista": "Sophie Vieira",
+    "visualizacoes": 37277,
+    "data_lancamento": "2024-07-01"
+  },
+  {
+    "nome_musica": "Fugaz Coração Que Voa (Remasterizado)",
+    "artista": "José Pedro das Neves",
+    "visualizacoes": 78803,
+    "data_lancamento": "2026-04-07"
+  },
+  {
+    "nome_musica": "Imortal Mar Que Grita (Edição Especial)",
+    "artista": "Maria Vitória Vasconcelos",
+    "visualizacoes": 414005,
+    "data_lancamento": "2025-04-06"
+  },
+  {
+    "nome_musica": "Imortal Deserto Que Fica (Remix)",
+    "artista": "Alexia Leão",
+    "visualizacoes": 8242,
+    "data_lancamento": "2024-10-06"
+  },
+  {
+    "nome_musica": "Selvagem Lua Que Parte (Instrumental)",
+    "artista": "Mariah Pacheco",
+    "visualizacoes": 120548,
+    "data_lancamento": "2025-01-07"
+  },
+  {
+    "nome_musica": "Selvagem Luz Que Voa (Remasterizado)",
+    "artista": "Carolina Nascimento",
+    "visualizacoes": 37641,
+    "data_lancamento": "2025-10-17"
+  },
+  {
+    "nome_musica": "Sagrado Sombra Que Grita (Remix)",
+    "artista": "Henrique Costela",
+    "visualizacoes": 8475,
+    "data_lancamento": "2025-10-19"
+  },
+  {
+    "nome_musica": "Sagrado Caminho Que Brilha (Remix)",
+    "artista": "Valentina Araújo",
+    "visualizacoes": 29014,
+    "data_lancamento": "2023-12-21"
+  },
+  {
+    "nome_musica": "Distante Estrela Que Brilha (À Meia-Noite)",
+    "artista": "Pedro Lucas Moraes",
+    "visualizacoes": 60265,
+    "data_lancamento": "2021-12-30"
+  },
+  {
+    "nome_musica": "Perdido Noite Que Sonha (Reinterpretação)",
+    "artista": "Camila da Cruz",
+    "visualizacoes": 98139,
+    "data_lancamento": "2023-05-20"
+  },
+  {
+    "nome_musica": "Eterno Flor Que Dança (Reinterpretação)",
+    "artista": "Rael Guerra",
+    "visualizacoes": 112715,
+    "data_lancamento": "2022-04-09"
+  },
+  {
+    "nome_musica": "Eterno Estrela Que Brilha (Reinterpretação)",
+    "artista": "Clara Teixeira",
+    "visualizacoes": 4237,
+    "data_lancamento": "2022-06-28"
+  },
+  {
+    "nome_musica": "Infinito Silêncio Que Chora (À Meia-Noite)",
+    "artista": "Melissa Vieira",
+    "visualizacoes": 102805,
+    "data_lancamento": "2023-09-20"
+  },
+  {
+    "nome_musica": "Selvagem Luz Que Chora",
+    "artista": "Mirella Abreu",
+    "visualizacoes": 75336,
+    "data_lancamento": "2024-05-16"
+  },
+  {
+    "nome_musica": "Eterno Trovão Que Grita (Remix)",
+    "artista": "Paulo Peixoto",
+    "visualizacoes": 36243,
+    "data_lancamento": "2024-11-17"
+  },
+  {
+    "nome_musica": "Solitário Estrela Que Dança",
+    "artista": "Caio Castro",
+    "visualizacoes": 644,
+    "data_lancamento": "2022-05-03"
+  },
+  {
+    "nome_musica": "Ardente Chuva Que Sonha (Remasterizado)",
+    "artista": "Vinícius Castro",
+    "visualizacoes": 121681,
+    "data_lancamento": "2024-06-17"
+  },
+  {
+    "nome_musica": "Silencioso Lua Que Chora (À Meia-Noite)",
+    "artista": "Anthony Gabriel Guerra",
+    "visualizacoes": 109305,
+    "data_lancamento": "2025-06-12"
+  },
+  {
+    "nome_musica": "Selvagem Luz Que Dança (Edição Especial)",
+    "artista": "Maria Helena Lima",
+    "visualizacoes": 388665,
+    "data_lancamento": "2024-06-01"
+  },
+  {
+    "nome_musica": "Selvagem Caminho Que Grita (Instrumental)",
+    "artista": "Nathan Rocha",
+    "visualizacoes": 231200,
+    "data_lancamento": "2024-05-24"
+  },
+  {
+    "nome_musica": "Distante Sombra Que Parte",
+    "artista": "Ana Sophia Viana",
+    "visualizacoes": 96813,
+    "data_lancamento": "2025-02-04"
+  },
+  {
+    "nome_musica": "Profundo Sol Que Voa",
+    "artista": "Clara Lima",
+    "visualizacoes": 166181,
+    "data_lancamento": "2026-05-13"
+  },
+  {
+    "nome_musica": "Eterno Noite Que Grita",
+    "artista": "Sarah Cirino",
+    "visualizacoes": 50566,
+    "data_lancamento": "2026-03-13"
+  },
+  {
+    "nome_musica": "Profundo Mar Que Chega (Remix)",
+    "artista": "Ana Beatriz da Rosa",
+    "visualizacoes": 171578,
+    "data_lancamento": "2022-08-03"
+  },
+  {
+    "nome_musica": "Infinito Mar Que Dança (Remix)",
+    "artista": "Helena Lopes",
+    "visualizacoes": 265419,
+    "data_lancamento": "2022-11-18"
+  },
+  {
+    "nome_musica": "Eterno Lua Que Brilha (À Meia-Noite)",
+    "artista": "Maria Cecília Dias",
+    "visualizacoes": 7303,
+    "data_lancamento": "2026-03-06"
+  },
+  {
+    "nome_musica": "Silencioso Chuva Que Chora (Ao Vivo)",
+    "artista": "Rodrigo Melo",
+    "visualizacoes": 21796,
+    "data_lancamento": "2025-08-07"
+  },
+  {
+    "nome_musica": "Dourado Dia Que Dança (Remasterizado)",
+    "artista": "Luana Costela",
+    "visualizacoes": 1120,
+    "data_lancamento": "2022-04-07"
+  }
+]
