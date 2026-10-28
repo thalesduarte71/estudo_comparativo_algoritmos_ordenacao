@@ -5,7 +5,6 @@ import os
 import json
 import funcoes
 import mapa_campos
-import unicodedata
 
 # Variavéis para Comparação Futura de Tempos de Ordenação
 tempo_bubble = None
