@@ -56,7 +56,7 @@ def insertion_sort(lista, key = lambda x: x):
  
 # Função de Algoritmo de Ordenação Quick Sort
 def quick_sort (lista, key = lambda x: x):
-    # Caso base da recursão: se a lista tiver 0 ou 1 elemento, ela já está ordenada
+    # Caso base: se a lista tiver 0 ou 1 elemento, ela já está ordenada
     if len(lista) <=1:
         return lista
     # Escolhe o elemento central da lista como o Pivô para dividir o problema

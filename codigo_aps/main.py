@@ -241,7 +241,7 @@ while True:
                             decrescente = funcoes.escolher_ordem()
 
                             inicio = time.perf_counter()
-                            # Aqui se mostra o uso de key = lambda, para Recursão da Função com o uso da Variável "chave_busca".
+                            # Aqui se mostra o uso de key = lambda, para personalizar a chave de ordenação da Função utilizando a Variável "chave_busca" e a função de normalização de texto.
                             dados_ordenados = funcoes.bubble_sort(dados_externos, key = lambda x: funcoes.normalizar_texto(x[chave_busca]))
                             fim = time.perf_counter()
 
@@ -258,7 +258,7 @@ while True:
                             decrescente = funcoes.escolher_ordem()
 
                             inicio = time.perf_counter()
-                            # Aqui se mostra o uso de key = lambda, para Recursão da Função com o uso da Variável "chave_busca".
+                            # Aqui se mostra o uso de key = lambda, para personalizar a chave de ordenação da Função utilizando a Variável "chave_busca" e a função de normalização de texto.
                             dados_ordenados = funcoes.insertion_sort(dados_externos, key = lambda x: funcoes.normalizar_texto(x[chave_busca]))
                             fim = time.perf_counter()
 
@@ -275,7 +275,7 @@ while True:
                             decrescente = funcoes.escolher_ordem()
 
                             inicio = time.perf_counter()
-                            # Aqui se mostra o uso de key = lambda, para Recursão da Função com o uso da Variável "chave_busca".
+                            # Aqui se mostra o uso de key = lambda, para personalizar a chave de ordenação da Função utilizando a Variável "chave_busca" e a função de normalização de texto.
                             dados_ordenados = funcoes.quick_sort(dados_externos, key = lambda x: funcoes.normalizar_texto(x[chave_busca]))
                             fim = time.perf_counter()
 
